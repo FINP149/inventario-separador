@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventário Separador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inventário Separador</h1>
+    </header>
+    
+    <main>
+        <form id="logForm">
+            <h2>Inserir Retirada</h2>
+            <label for="fuzil">Fuzil:</label>
+            <input type="number" id="fuzil" name="fuzil" min="0" value="0"><br>
+
+            <label for="municoes_fuzil">Munições de Fuzil:</label>
+            <input type="number" id="municoes_fuzil" name="municoes_fuzil" min="0" value="0"><br>
+
+            <label for="colete_meta_fuzil">Colete ou Meta/Baseado:</label>
+            <input type="number" id="colete_meta_fuzil" name="colete_meta_fuzil" min="0" value="0"><br>
+
+            <label for="cocaina_fuzil">Cocaína:</label>
+            <input type="number" id="cocaina_fuzil" name="cocaina_fuzil" min="0" value="0"><br>
+
+            <label for="radio_fuzil">Rádio:</label>
+            <input type="number" id="radio_fuzil" name="radio_fuzil" min="0" value="0"><br>
+
+            <label for="pistola">Pistola:</label>
+            <input type="number" id="pistola" name="pistola" min="0" value="0"><br>
+
+            <label for="municoes_pistola">Munições de Pistola:</label>
+            <input type="number" id="municoes_pistola" name="municoes_pistola" min="0" value="0"><br>
+
+            <button type="submit">Enviar Log</button>
+        </form>
+
+        <div id="resultado"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
